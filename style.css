@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: auto;
+}
+
+body{
+    background-color: #0b0b0b;
+    /* background-image: url('capa.png');  Caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100vh;
+    position: relative;
+}
+
+/* Engloba todo o cabeçalho */
+.top{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #0b0b0b;
+}
+
+/* Apenas a parte do título do site */
+.top-left{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    margin-top: -10px;
+    margin-left: 85px;
+}
+
+/* Parte do título CAR */
+.title1{
+    color: white;
+}
+
+/* Parte do título POINT */
+.title2{
+    color: #951212;
+}
+
+.top-center{
+    font-size: 24px;
+}
+
+/* link que ainda não foi acessado */
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+    margin-left: 45px;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: #d9d9d9;
+}
+
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+    color: #8f1313;
+    border-bottom: 2px solid #8f1313;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+/* quando o link for selecionado */
+a:active {
+    color: #333;
+}
+
+.top-right{
+    margin-left: 10px;
+}
+
+i {
+    color: white;
+    font-size: 41px;
+    margin-right: 30px;
+}
+
+.main{
+    margin-top: 1%;
+    background-image: url(capa.png);
+    background-size: contain; /* Ajusta a imagem para cobrir toda a área do fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100vh;
+}
+
+.main-left{
+    margin-left: 40px;
+    font-weight: 600;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.desc{
+    color: #fdfdfd;
+    font-size: 37px;
+    margin-top: 10px;
+}
+
+.red{
+    color: #821313;
+}
+
+.descubra {
+    margin-top: 17px;
+    font-weight: 600;
+    width: 210px;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #821313; 
+    color: white; 
+    border: none; 
+    text-decoration: none; 
+    cursor: pointer; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+.descubra:hover {
+    background-color: #b33c3c;
+    transform: scale(1.05); 
+}
+
+/* Efeito de clique */
+.descubra:active {
+    background-color: #7a0000; /* Cor de fundo quando o botão é clicado */
+    transform: scale(0.95); /* Diminui o botão um pouco ao ser clicado */
+}
+
+
